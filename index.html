@@ -19,17 +19,19 @@
         <div class="container">
             <div class="play">
                 <div class="you">
-                    <div id="user-selection" class="selection">
+                    <div id="user-selection" class="selection" style="display: flex;justify-content: center;align-items: center;">
+                        NULL
                     </div>
                     <form id="user-form" action="#">
-                        <button class="c-button" name="choice" value="stone">STONE</button>
-                        <button class="c-button" name="choice" value="paper">PAPPER</button>
-                        <button class="c-button" name="choice" value="scissor">SCISSOR</button>
+                        <input checked type="radio" id="choice1" class="c-button" name="choice" value="stone"><label for="choice1">stone</label>
+                        <input type="radio" id="choice2" class="c-button" name="choice" value="paper"><label for="choice2">paper</label>
+                        <input type="radio" id="choice3" class="c-button" name="choice" value="scissor"><label for="choice3">scissor</label>
+                        <input type="submit">
                     </form>
                 </div>
                 <div class="comp">
-                    <div id="computer-selection" class="selection">
-    
+                    <div id="computer-selection" class="selection" style="color: #fff;display: flex;justify-content: center;align-items: center;">
+                        NULL
                     </div>
                 </div>
             </div>

@@ -39,6 +39,7 @@ section{
     flex: 1 1 300px;
     background: blue;
     text-align: center;
+    color: #fff;
 }
 .play .comp{
     flex: 1 1 300px;
@@ -71,7 +72,7 @@ section{
     display: flex;
     justify-content: center;
 }
-.result .result-box p{
+.result .result-box{
     font-size: 3rem;
 }
 .result .points{
