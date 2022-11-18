@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <p>Stone</p>
+            <p>Paper</p>
+            <p>Scissors</p>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="play">
+                <div class="you">
+                    <div id="user-selection" class="selection">
+                    </div>
+                    <form id="user-form" action="#">
+                        <button class="c-button" name="choice" value="stone">STONE</button>
+                        <button class="c-button" name="choice" value="paper">PAPPER</button>
+                        <button class="c-button" name="choice" value="scissor">SCISSOR</button>
+                    </form>
+                </div>
+                <div class="comp">
+                    <div id="computer-selection" class="selection">
+    
+                    </div>
+                </div>
+            </div>
+            <div class="result">
+                <div id="result-box" class="result-box">
+                    <p>DRAW</p>
+                </div>
+                <div class="points">
+                    <div class="points-box">
+                        <div class="c-point">
+                            <p>Computer points : </p>
+                            <p id="points-computer">0</p>
+                        </div>
+                        <div class="y-point">
+                            <p>Your points :</p>
+                            <p id="points-player">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
